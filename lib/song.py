@@ -50,16 +50,16 @@ class Song:
             cls.artist_count[artist] = 1
 
         
-s1 = Song("99 Problems", "Jay Z", "Rap")
-s2 = Song("Halo", "Beyonce", "Pop")
-s3 = Song("Smells Like Teen Spirit", "Nirvana", "Rock")
+# s1 = Song("99 Problems", "Jay Z", "Rap")
+# s2 = Song("Halo", "Beyonce", "Pop")
+# s3 = Song("Smells Like Teen Spirit", "Nirvana", "Rock")
 
-#accessing class attributes
-print(Song.count)  #3
-print(Song.genres)  #['Rap', 'Pop', 'Rock']
-print(Song.artists)  #['Jay Z', 'Beyonce', 'Nirvana']
-print(Song.genre_count)  #{'Rap': 1, 'Pop': 1, 'Rock': 1}
-print(Song.artist_count)  #{'Jay Z': 1, 'Beyonce': 1, 'Nirvana': 1}
+# #accessing class attributes
+# print(Song.count)  #3
+# print(Song.genres)  #['Rap', 'Pop', 'Rock']
+# print(Song.artists)  #['Jay Z', 'Beyonce', 'Nirvana']
+# print(Song.genre_count)  #{'Rap': 1, 'Pop': 1, 'Rock': 1}
+# print(Song.artist_count)  #{'Jay Z': 1, 'Beyonce': 1, 'Nirvana': 1}
 
     
 
